@@ -4,7 +4,7 @@ pages:
   stage: deploy
   environment:
     name: production
-    url: http://www.lukekuenneke.com
+    url: https://caroctran.gitlab.io/carowebsite
   before_script:
     - apt-get update -qy
   script:
