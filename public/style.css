@@ -203,11 +203,27 @@ section h2.section-heading {
 
 #footer {
     padding: 50px 50px 10px 50px;
-
+    background-color:#efe0fc;
 }
 
 
+/*----------------------------------------------------------------------------- 
+REFERENCE LINK
+-----------------------------------------------------------------------------*/
 
+#footer a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+#footer a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  
 /*----------------------------------------------------------------------------- 
 SOCIAL BUTTONS  
 -----------------------------------------------------------------------------*/
@@ -297,6 +313,4 @@ MEDIA QUERIES
     
     
     }
-
-    
 }
